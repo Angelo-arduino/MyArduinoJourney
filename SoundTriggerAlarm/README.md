@@ -1,10 +1,10 @@
-Sound Trigger Alarm System
+## Sound Trigger Alarm System
 
-Overview
+## Overview
 
 This Arduino project uses a sound sensor to detect loud noises (e.g., clapping or knocking) and triggers an alarm (buzzer or LED). Useful as a small notification or security demo.
 
-Features
+## Features
 
 Detects sound above a threshold
 
@@ -15,7 +15,7 @@ Sensitivity adjustable on the sensor module
 Beginner-friendly
 
 
-##Components Used
+## Components Used
 
 Arduino Uno
 
@@ -28,15 +28,16 @@ Breadboard
 Jumper wires
 
 
-##Circuit Diagram
+## Circuit Diagram
 
-() ![![20251115_122155](https://github.com/user-attachments/assets/782bfadd-6ae0-4060-be08-cd17a52eeb30)
+
+[![20251115_122155](https://github.com/user-attachments/assets/70808d4f-d089-4ac6-9f2f-718c0813f1e9)
 ](images/sound_wiring.jpg)
 ## Demo video
 Here is a demo video showing how the sound alarm system works:
 [watch the demo on Youtube](https://youtu.be/uwdyYTs8sM4?si=OEJ_2Li0mB6KTOao)
 
-##Code
+## Code
 
 int soundSensor = 2; // KY-037 digital output
 int led = 5;        // LED pin
@@ -67,7 +68,7 @@ void loop() {
   }
   }
 
-How It Works
+## How It Works
 
 1. The sound sensor outputs HIGH when noise passes the threshold.
 
@@ -79,7 +80,7 @@ How It Works
 
 
 
-Setup Instructions
+## Setup Instructions
 
 1. Connect sound sensor VCC → 5V, GND → GND, OUT → digital pin 2.
 
@@ -91,7 +92,7 @@ Setup Instructions
 
 
 
-Future Improvements
+## Future Improvements
 
 Add debounce or time window to avoid repeated triggers
 
@@ -100,8 +101,7 @@ Send SMS/email using GSM/Wi-Fi module
 Add a small web dashboard for event log
 
 
-Author
+## Author
 
 Gelo — Mechanical Engineering Student | Arduino and Robotics Enthusiast
-https://youtu.be/uwdyYTs8sM4?si=OEJ_2Li0mB6KTOao
 
