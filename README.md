@@ -20,12 +20,11 @@ A simple Arduino project that demonstrates how to blink an LED using a breadboar
 - USB cable
 
 ## Circuit Diagram
-(Place a picture in `images/` and link it here)
+(![Screenshot_20251113-170613_Gallery](https://github.com/user-attachments/assets/324044cd-7dc9-4473-b559-5956a6a8890d)
+)
 `![Circuit diagram](images/circuit.jpg)`
 
 ## Code
-Place the Arduino code in `BlinkLED/BlinkLED.ino`
-
 ```cpp
 int ledPin = 5;
 
@@ -36,6 +35,9 @@ void setup() {
 void loop() {
   digitalWrite(ledPin, HIGH);
   delay(1000);
+  digitalWrite(ledPin, LOW);
+  delay(1000);
+}
 ## 🎬 Demo Video
 Watch the project in action on YouTube:  
 👉 [[Click here to watch the demo](https://img.youtube.com/vi/VErsI4ba5gGHIu8N/0.jpg](https://youtu.be/1WhDdfirVt0?si=VErsI4ba5gGHIu8N)
@@ -82,6 +84,4 @@ Add adjustable PWM brightness
 Author
 
 Gelo — Mechanical Engineering Student | Arduino and Robotics Enthusiast
-  digitalWrite(ledPin, LOW);
-  delay(1000);
-}
+
