@@ -1,4 +1,4 @@
-## Sound Trigger Alarm System
+# Sound Trigger Alarm System
 
 ## Overview
 
