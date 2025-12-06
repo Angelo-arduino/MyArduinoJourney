@@ -39,8 +39,9 @@ void loop() {
   delay(1000);
 }
 (...)
-## 🎬 Demo Video
-Watch the project in action on YouTube:  
+
+🎬 Demo Video
+Watch the project in action on YouTube: ![Watch the demo on YouTube](https://img.youtube.com/vi/1WhDdfirVt0/hqdefault.jpg) 
 https://youtu.be/1WhDdfirVt0?si=ywUGI5Fk0u5Lfw2r
 This video demonstrates the LED blink project running on a breadboard using an Arduino uno.
 How It Works
