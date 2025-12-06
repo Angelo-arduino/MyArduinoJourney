@@ -25,8 +25,9 @@ A simple Arduino project that demonstrates how to blink an LED using a breadboar
 `![Circuit diagram](images/circuit.jpg)`
 
 🎬 Demo Video
-Watch the project in action on YouTube: ![Watch the demo on YouTube](https://img.youtube.com/vi/1WhDdfirVt0/hqdefault.jpg) 
-https://youtu.be/1WhDdfirVt0?si=ywUGI5Fk0u5Lfw2r
+Watch the project in action on YouTube: 
+![Watch the demo on YouTube](https://img.youtube.com/vi/1WhDdfirVt0/hqdefault.jpg) 
+[click here](https://youtu.be/1WhDdfirVt0?si=ywUGI5Fk0u5Lfw2r)
 This video demonstrates the LED blink project running on a breadboard using an Arduino uno.
 
 ## Code
