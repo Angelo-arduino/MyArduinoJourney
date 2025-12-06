@@ -30,7 +30,8 @@ Jumper wires
 
 ##Circuit Diagram
 
-() ![Sound sensor wiring](images/sound_wiring.jpg)
+() ![![20251115_122155](https://github.com/user-attachments/assets/782bfadd-6ae0-4060-be08-cd17a52eeb30)
+](images/sound_wiring.jpg)
 ## Demo video
 Here is a demo video showing how the sound alarm system works:
 [watch the demo on Youtube](https://youtu.be/uwdyYTs8sM4?si=OEJ_2Li0mB6KTOao)
