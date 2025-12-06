@@ -38,7 +38,6 @@ Here is a demo video showing how the sound alarm system works:
 [watch the demo on Youtube](https://youtu.be/uwdyYTs8sM4?si=OEJ_2Li0mB6KTOao)
 
 ## Code
-
 int soundSensor = 2; // KY-037 digital output
 int led = 5;        // LED pin
 int buzzer = 12;     // Buzzer pin
@@ -78,19 +77,13 @@ void loop() {
 
 3. The alarm stays on for a second and then resets.
 
-
-
 ## Setup Instructions
 
 1. Connect sound sensor VCC → 5V, GND → GND, OUT → digital pin 2.
 
-
 2. Connect buzzer or LED to pin 13 (through resistor if LED).
 
-
 3. Upload code and test by clapping or tapping.
-
-
 
 ## Future Improvements
 
@@ -100,8 +93,6 @@ Send SMS/email using GSM/Wi-Fi module
 
 Add a small web dashboard for event log
 
-
 ## Author
 
 Gelo — Mechanical Engineering Student | Arduino and Robotics Enthusiast
-
