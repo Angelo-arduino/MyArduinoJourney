@@ -1,2 +1,87 @@
 # MyArduinoJourney
 My personal Arduino projects from beginner to advanced
+# LED Blink Project
+
+## Overview
+A simple Arduino project that demonstrates how to blink an LED using a breadboard and basic components. Great for beginners learning digital output and timing.
+
+## Features
+- Basic LED on/off control
+- Uses Arduino digital pin
+- Demonstrates timing with `delay()`
+- Breadboard wiring practice
+
+## Components Used
+- Arduino Uno
+- Breadboard
+- 1 LED
+- 220Ω resistor
+- Jumper wires
+- USB cable
+
+## Circuit Diagram
+(Place a picture in `images/` and link it here)
+`![Circuit diagram](images/circuit.jpg)`
+
+## Code
+Place the Arduino code in `BlinkLED/BlinkLED.ino`
+
+```cpp
+int ledPin = 5;
+
+void setup() {
+  pinMode(ledPin, OUTPUT);
+}
+
+void loop() {
+  digitalWrite(ledPin, HIGH);
+  delay(1000);
+## 🎬 Demo Video
+Watch the project in action on YouTube:  
+👉 [[Click here to watch the demo](https://img.youtube.com/vi/VErsI4ba5gGHIu8N/0.jpg](https://youtu.be/1WhDdfirVt0?si=VErsI4ba5gGHIu8N)
+This video demonstrates the LED blink project running on a breadboard using an Arduino uno.
+How It Works
+
+1. LED is connected to a digital pin through a resistor.
+
+
+2. The Arduino sets the pin HIGH → LED ON.
+
+
+3. After 1 second it sets the pin LOW → LED OFF.
+
+
+4. The loop repeats.
+
+
+
+Setup Instructions
+
+1. Build circuit on breadboard (connect LED → resistor → pin 13 → GND).
+
+
+2. Connect Arduino to your computer.
+
+
+3. Open Arduino IDE, paste/upload the code to the board.
+
+
+4. Observe the LED blinking.
+
+
+
+Future Improvements
+
+Add multiple LEDs and patterns
+
+Control via button for speed
+
+Add adjustable PWM brightness
+
+
+Author
+
+Gelo — Mechanical Engineering Student | Arduino and Robotics Enthusiast
+  digitalWrite(ledPin, LOW);
+  delay(1000);
+}
