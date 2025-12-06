@@ -38,6 +38,7 @@ void loop() {
   digitalWrite(ledPin, LOW);
   delay(1000);
 }
+(...)
 ## 🎬 Demo Video
 Watch the project in action on YouTube:  
 https://youtu.be/1WhDdfirVt0?si=ywUGI5Fk0u5Lfw2r
