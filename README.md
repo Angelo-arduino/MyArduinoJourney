@@ -40,8 +40,7 @@ void loop() {
 }
 ## 🎬 Demo Video
 Watch the project in action on YouTube:  
-👉 [[Click here to watch the demo](https://img.youtube.com/vi/VErsI4ba5gGHIu8N/0.jpg)]
-(https://youtu.be/1WhDdfirVt0?si=2dvPRX5wbRg_U6xN)
+[![Watch the video](https://img.youtube.com/vi/1WhDdfirVt0/0.jpg)](https://youtu.be/1WhDdfirVt0?si=2dvPRX5wbRg_U6xN)
 This video demonstrates the LED blink project running on a breadboard using an Arduino uno.
 How It Works
 
