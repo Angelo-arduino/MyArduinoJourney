@@ -38,6 +38,8 @@ Here is a demo video showing how the sound alarm system works:
 [watch the demo on Youtube](https://youtu.be/uwdyYTs8sM4?si=OEJ_2Li0mB6KTOao)
 
 ## Code
+[code used](https://github.com/Angelo-arduino/MyArduinoJourney/blob/main/SoundTriggerAlarm%2Fsound.ino)
+
 int soundSensor = 2; // KY-037 digital output
 int led = 5;        // LED pin
 int buzzer = 12;     // Buzzer pin
